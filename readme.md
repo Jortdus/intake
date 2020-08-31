@@ -1,10 +1,6 @@
 # Procesverslag
 **Auteur:** -Jort Broekhof-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
 1. -bron 1-
 2. -bron 2-
@@ -14,7 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+//
 
 **Screenshot(s):**
 
@@ -24,13 +20,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+//
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+//
 
 
 
@@ -38,19 +34,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+//
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+//
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+//
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+//
 
 
 
@@ -64,7 +60,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![Nu.nl voorpagina op een iphone 6/7/8](images/nu-frontpage-mobile.png)
+![Nu.nl voorpagina op een iphone 6/7/8](images/nu-weather-mobile.png)
 
 **Breakdown-schets(en):**
 
