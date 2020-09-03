@@ -1,10 +1,10 @@
 # Procesverslag
 **Auteur:** -Jort Broekhof-
 
+[Website](https://jortdus.github.io/intake/)
+
 ## Bronnenlijst
 1. [nu.nl](https://www.nu.nl)
-2. -bron 2-
-3. -...-
 
 
 
@@ -65,5 +65,3 @@
 ![Nu.nl voorpagina op een iphone 6/7/8](images/nu-weather-mobile.png)
 
 **Breakdown-schets(en):**
-
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
