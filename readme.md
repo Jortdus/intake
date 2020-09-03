@@ -2,7 +2,7 @@
 **Auteur:** -Jort Broekhof-
 
 ## Bronnenlijst
-1. -bron 1-
+1. [nu.nl](https://www.nu.nl)
 2. -bron 2-
 3. -...-
 
@@ -54,9 +54,10 @@
 
 **Je startniveau:** Zwart
 
-**Je focus:** Responsive
+**Je focus:** Responsive, ik ben bekend met web development (Diploma webdevelopment) en wil me dus focusen om mijn responsive development skills te verbeteren en nog netter te maken. 
 
 **Je opdracht:** [nu.nl](https://www.nu.nl)
+
 
 **Screenshot(s):**
 
