@@ -1,5 +1,40 @@
-/* CSS Document */
+html {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
 *, *::after, *::before {
   box-sizing:border-box;  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: rgb(31, 37, 68);
+}
+
+nav header {
+  display: flex;
+  align-content: center;
+}
+
+nav header img {
+  width: 1.625em;
+  margin: 0.45em 0.5em 0.3em 0.6em;
+}
+
+nav header a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(31, 37, 68);
+  font-weight: 700;
+  padding-top: 0.7em;
+  padding-left: 0.1em;
+}
+
+nav section img {
+  width: 1.5em;
 }
 
