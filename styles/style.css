@@ -139,6 +139,8 @@ nav .wrapper a {
 	font-size: 1em;
 	color: white;
 	text-decoration: none;
+	width: 80%;
+	margin: 0 auto;
 }
 
 #header-article figure {
@@ -148,7 +150,6 @@ nav .wrapper a {
 #header-article figcaption {
 	position: absolute;
 	left: 0;
-	top: 0;
-	width: 90%;
-
+	top: 6em;
+	width: 100%;
 }
