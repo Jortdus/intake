@@ -1,43 +1,92 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Jort Broekhof">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Jort's Website</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<nav>
 		<header>
-			<img src="images/nu_logo.svg" alt="nu.nl logo">
-			<a href="/">NU.nl</a>
+			<div id="logo">
+				<img src="images/nu_logo.svg" alt="nu.nl logo">
+				<a href="/">NU.nl</a>
+			</div>
+			<div id="toolbar">
+				<img src="images/nu-theme.svg" alt="theme icon">
+				<img src="images/nu-profile.svg" alt="profile icon">
+				<img src="images/nu-arrow-down.svg" alt="arrow down">
+			</div>
 		</header>
-
 		<nav>
-			<a href="/">Voorpagina</a>
-			<a href="/">Net binnen</a>
-			<a href="/">Popular</a>
-			<a href="/">Meer</a>
+			<div class="wrapper">
+				<ul>
+					<li><a href="/">Voorpagina</a></li>
+					<li><a href="/">Net binnen</a></li>
+					<li><a href="/">Popular</a></li>
+					<li><a href="/">Meer</a></li>
+				</ul>
+			</div>
 		</nav>
-
 		<section>
 			<ul>
-				<li><img src="images/nu-cloud.png" alt="nu.nl weer"></li>
-				<li><img src="images/nu-traffic.png" alt="nu.nl verkeer"></li>
-				<li><img src="images/nu-stock.png" alt="nu.nl aandelen"></li>
-				<li><img src="images/nu-tv.png" alt="nu.nl tv"></li>
-				<li><img src="images/nu-sport.png" alt="nu.nl sport"></li>
+				<li>
+					<a href="">
+						<img src="images/nu-weather.svg" alt="nu.nl weer">
+						<p>22 °C</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/nu-traffic.svg" alt="nu.nl verkeer">
+						<p>30 km</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/nu-stock.svg" alt="nu.nl aandelen">
+						<p>559,75</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/nu-tv.svg" alt="nu.nl tv">
+						<p>TV Gids</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="images/nu-sports.svg" alt="nu.nl sport">
+						<p>2 Live</p>
+					</a>
+				</li>
 			</ul>
 		</section>
 	</nav>
 
+	<main>
+		<section id="header-article">
+			<a href="/">
+				<figure>
+					<img src="/images/nu-front-img.jpg" alt="">
+					<figcaption>
+						<h1>Achttien aanhoudingen in internationaal onderzoek naar drugs</h1>
+					</figcaption>
+				</figure>
+				
+			</a>
+			
+		</section>
+	</main>
+
 
 	<script src="scripts/script.js"></script>
 </body>
-	
+
 </html>

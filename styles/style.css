@@ -1,40 +1,154 @@
 html {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+	--common-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: var(--common-font);
 }
 
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+main {
+	padding: 10px;
 }
 
-h1, h2, h3 {
-  color: rgb(31, 37, 68);
+h1,
+h2,
+h3 {
+	color: rgb(31, 37, 68);
 }
+
+
 
 nav header {
-  display: flex;
-  align-content: center;
+	display: flex;
+	border-bottom: 1px solid #eee;
+	justify-content: space-between;
 }
 
 nav header img {
-  width: 1.625em;
-  margin: 0.45em 0.5em 0.3em 0.6em;
+	width: 1.625em;
+	height: 100%;
+	margin: 0.45em 0.5em 0.3em 0.6em;
 }
 
 nav header a {
-  font-size: 14px;
-  text-decoration: none;
-  color: rgb(31, 37, 68);
-  font-weight: 700;
-  padding-top: 0.7em;
-  padding-left: 0.1em;
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(31, 37, 68);
+	font-weight: 700;
+	padding-top: 0.7em;
+	padding-left: 0.1em;
+}
+
+#logo {
+	height: 100%;
+	display: flex;
+}
+
+#toolbar {
+	margin-right: 0.8em;
+}
+
+#toolbar img {
+	margin: 0 0 0 5px;
+	width: 24px;
+}
+
+#toolbar img:nth-of-type(3) {
+	width: 12px;
 }
 
 nav section img {
-  width: 1.5em;
+	width: 1.5em;
 }
 
+nav section {
+	width: 95%;
+	margin: 1.5em auto 0 auto;
+}
+
+nav section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav section ul li a {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: .85em;
+    white-space: nowrap;
+	padding: .2em 0;
+	text-decoration: none;
+	color: #1f2544;
+}
+
+nav section ul li a p {
+	margin: 0.5em 0 0 0 ;
+}
+
+
+
+.wrapper ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 0.5em;
+}
+
+.wrapper ul li {
+	text-decoration: none;
+
+}
+
+nav nav {
+	text-align-last: center;
+}
+
+nav .wrapper {
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.12);
+	height: 40px;
+}
+
+nav .wrapper a {
+	font-size: 0.75em;
+	font-family: var(--common-font);
+	font-weight: 700;
+	color: #9b9b9b;
+	text-decoration: none;
+	padding: 7px 12px;
+
+}
+
+#header-article img {
+	max-width: 100%;
+	border-radius: 0.5em;
+}
+
+#header-article h1 {
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+}
+
+#header-article figure {
+	position: relative;
+}
+
+#header-article figcaption {
+    position: absolute;
+    left: 0;
+	top: 0;
+	width: 90%;
+
+}
