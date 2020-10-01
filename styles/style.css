@@ -97,7 +97,7 @@ nav section ul li a p {
 
 
 
-.wrapper ul {
+ul.nav-bar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -106,7 +106,7 @@ nav section ul li a p {
 	padding-top: 0.5em;
 }
 
-.wrapper ul li {
+ul.nav-bar li {
 	text-decoration: none;
 
 }
@@ -115,12 +115,12 @@ nav nav {
 	text-align-last: center;
 }
 
-nav .wrapper {
+nav ul.nav-bar {
 	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .12);
 	height: 40px;
 }
 
-nav .wrapper a {
+ul.nav-bar a {
 	font-size: 0.75em;
 	font-family: var(--common-font);
 	font-weight: 700;
@@ -130,26 +130,35 @@ nav .wrapper a {
 
 }
 
+#header-article {
+	margin-bottom: 1em;
+}
+
 #header-article img {
 	max-width: 100%;
 	border-radius: 0.5em;
 }
 
-#header-article h1 {
-	font-size: 1em;
-	color: white;
-	text-decoration: none;
-	width: 80%;
-	margin: 0 auto;
-}
-
 #header-article figure {
 	position: relative;
+	width: 100%;
 }
 
 #header-article figcaption {
 	position: absolute;
-	left: 0;
-	top: 6em;
-	width: 100%;
+	left: 2em;
+	top: 4.6em;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.list-item {
+	margin: 0 0 1em 0;
+}
+
+.list-item img {
+	width: 6.3em;
+	border-radius: 0.5em;
 }
