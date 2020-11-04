@@ -56,5 +56,4 @@ Ik had op een bepaalde section te veel elementen toegepast en heb de code daar z
 ![Nu.nl voorpagina op een iphone 6/7/8](images/nu-weather-mobile.png)
 
 **Breakdown-schets(en):**
-
-(images/breakdownschets.png)
+![Breakdown schetsen](images/breakdownschets.png)
