@@ -14,7 +14,6 @@
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
 
 
 
@@ -31,7 +30,8 @@
 
 
 ## Voortgang 1 (week 3)
-
+Ik heb Sanne gevraagt te kijken naar de semantische correctheid van mijn code op dat moment. 
+Ik had op een bepaalde section te veel elementen toegepast en heb de code daar zelf beter kunnen neerzetten na deze feedback.
 ### Stand van zaken
 
 //
@@ -39,15 +39,6 @@
 **Screenshot(s):**
 
 //
-
-### Agenda voor meeting
-
-//
-
-### Verslag van meeting
-
-//
-
 
 
 ## Intake (week 1)
@@ -65,3 +56,5 @@
 ![Nu.nl voorpagina op een iphone 6/7/8](images/nu-weather-mobile.png)
 
 **Breakdown-schets(en):**
+
+(images/breakdownschets.png)

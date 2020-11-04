@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jort Broekhof">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Weer | Nu.nl - Het laatste nieuws het eerste op NU.nl</title>
+    <link rel="icon" href="images/nu-logo.png">
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav>
+		<header>
+			<div id="logo">
+				<img src="images/nu_logo.svg" alt="nu.nl logo">
+				<a href="/">NU.nl</a>
+			</div>
+			<div id="toolbar">
+				<img src="images/nu-theme.svg" alt="theme icon">
+				<img src="images/nu-profile.svg" alt="profile icon">
+				<img src="images/nu-arrow-down.svg" alt="arrow down">
+			</div>
+		</header>
+
+		<ul class="nav-bar">
+			<li><a href="/">Voorpagina</a></li>
+			<li><a href="/">Net binnen</a></li>
+			<li><a href="/">Popular</a></li>
+			<li><a href="/">Meer</a></li>
+		</ul>
+
+	</nav>
+
+	<main>
+		<h1 id="weather-title">Vandaag in Nederland</h1>
+		<section class="weather-container">
+			<div id="weather-header">
+				<div id="weather-temp">
+					<span id="temperature">12</span>
+					<span id="celcius">°C</span>
+				</div>
+
+				<span id="weather-range"> 12° / 4° - W 2 </span>
+			</div>
+			<div id="precipitation">
+				<img src="images/nu-cloudsun.svg" alt="Zon met wolk">
+				<span id="prediction">Zonnig</span>
+			</div>
+		</section>
+		<section id="location-link">
+			<a href="">
+				<img src="images/nu-marker.svg" alt="location icon">
+				<span>Toon het weer per uur op jouw locatie</span>
+			</a>
+		</section>
+
+		<section id="plaza">
+			<a  href="/">
+				<img src="images/nu-plaza.svg" alt="weerplaza">
+			</a>
+		</section>
+
+		
+	</main>
+
+
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>

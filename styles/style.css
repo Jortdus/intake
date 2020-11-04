@@ -1,6 +1,15 @@
 html {
 	--common-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-family: var(--common-font);
+
+}
+
+@media (min-width: 750px) {
+	main {
+		width: 50%;
+	}
+
+
 }
 
 *,
@@ -13,6 +22,7 @@ html {
 
 main {
 	padding: 10px;
+	height: 100vh;
 }
 
 h1,
@@ -21,7 +31,9 @@ h3 {
 	color: rgb(31, 37, 68);
 }
 
-
+li {
+	text-decoration: none;
+}
 
 nav header {
 	display: flex;
@@ -95,8 +107,6 @@ nav section ul li a p {
 	margin: 0.5em 0 0 0;
 }
 
-
-
 ul.nav-bar {
 	list-style-type: none;
 	margin: 0;
@@ -146,8 +156,8 @@ ul.nav-bar a {
 
 #header-article figcaption {
 	position: absolute;
-	left: 2em;
-	top: 4.6em;
+	left: 1.3em;
+	top: 8em;
 	font-size: 17px;
 	color: white;
 	text-decoration: none;
@@ -159,6 +169,133 @@ ul.nav-bar a {
 }
 
 .list-item img {
-	width: 6.3em;
+	width: 7em;
 	border-radius: 0.5em;
 }
+
+.list-item figure {
+	display: flex;
+}
+
+.list-item figcaption {
+	margin: 1.1em;
+	line-height: 1.4em;
+}
+
+.list-item a {
+	text-decoration: none;
+	color: #1f2544;
+	font-size: 13px;
+}
+
+.more-link {
+	width: 100%;
+	text-align: center;
+
+}
+
+.more-link a {
+	font-size: 0.8em;
+	color: #1f2544;
+	text-decoration: none;
+}
+
+.block-title {
+	margin-top: 1em;
+	font-weight: bold;
+	color: white;
+	background-color: #1f2544;
+	padding: 7px 5px 7px 12px;
+	border-radius: 8px 18px 18px 8px;
+	margin-bottom: 1em;
+	width: 75%;
+}
+
+#election-title {
+	width: 75%;
+}
+
+#vid-title {
+	width: 50%;
+}
+
+/* weather page  */
+
+#weather-title {
+	display: block;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.weather-container {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	color: #1f2544;
+	font-weight: 700;
+}
+
+.weather-container img {
+	width: 58px;
+	margin-left: 9px;
+}
+.weather-header {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+	text-align: center;
+}
+
+#weather-range {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#temperature {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+#celcius {
+	font-size: 16px;
+	vertical-align: top;
+	font-weight: 700;
+}
+
+#precipitation {
+	max-width: 100px;
+	text-align: center;
+}
+
+#prediction {
+	font-size: 12px;
+}
+
+#plaza {
+	display: flex;
+	justify-content: center;
+}
+
+#plaza img {
+	width: 78px;
+	margin: 16px auto 0;
+}
+
+#location-link {
+	font-size: 13px;
+	display: flex;
+    justify-content: center;
+}
+
+
+#location-link img {
+	width: 24px;
+	height: 24px;
+}
+
+
+
+
